@@ -1,0 +1,48 @@
+@import url('./normalize.css');
+@import url('./fonts.css');
+
+.not_found {
+    position: relative;
+    top: 100px;
+    width: 80%;
+    margin: auto;
+} 
+
+.img {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    justify-content: end;
+    top: 0px;
+}
+
+p {
+    display: inline-block;
+    position: relative;
+    font-family: 'Neris', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    color: #EC4524;
+    margin: 0;
+}
+
+a {
+    font-family: 'Neris', sans-serif;
+    position: relative;
+    top: 80px;
+    background-color: #fff;
+    color: #ff6600;
+    border: 3px solid #ff6600;
+    border-radius: 100px;
+    padding: 20px 90px 24px 91px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32.16px;
+    cursor: pointer;
+    margin-left: 20px;
+    text-decoration: none;
+}

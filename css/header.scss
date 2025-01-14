@@ -1,0 +1,148 @@
+$color_1: #7DB232;
+$color_2: #4E4E4E;
+$color_3: #FFFFFF;
+$color_4: #FF8743;
+$color_5: white;
+$font-family_1: Arial, sans-serif;
+$font-family_2: 'Neris', sans-serif;
+$font-family_3: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+$font-family_4: 'Segoe UI', serif;
+$background-color_1: #FFFFFF;
+$background-color_2: #F5F5F5;
+$background-color_3: #FF8743;
+
+@import "./normalize.css";
+@import "./fonts.css";
+&:root {
+	--scale-f: 0.8;
+}
+body {
+	margin: 0;
+	font-family: $font-family_1;
+	background-color: $background-color_1;
+	overflow-x: hidden;
+}
+.header {
+	background-color: $background-color_2;
+	width: 100%;
+	display: flex;
+	display: -ms-flexbox;
+	justify-content: center;
+}
+.header-wrapper {
+	max-width: calc(1170px * 0.8);
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	padding-left: calc(var(--scale-f) * 23px);
+	padding-top: calc(var(--scale-f) * 6px);
+}
+.header-right {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logo {
+	max-width: 96px;
+	width: calc(96px * var(--scale-f));
+	height: calc(83px * var(--scale-f));
+}
+.slogan {
+	max-width: 253px;
+	font-size: calc(var(--scale-f) * 16px);
+	font-family: $font-family_2;
+	font-weight: 400;
+	color: $color_1;
+	max-width: calc(var(--scale-f) * 253px);
+	line-height: calc(var(--scale-f) * 21.44px);
+	word-wrap: break-word;
+	margin-left: calc(var(--scale-f) * 26px);
+}
+.location {
+	max-width: calc(var(--scale-f) * 183px);
+	font-size: calc(var(--scale-f) * 20px);
+	font-family: $font-family_3;
+	text-align: right;
+	color: $color_2;
+	line-height: 26.6px;
+	font-weight: 700;
+	word-wrap: normal;
+	margin-left: calc(var(--scale-f) * 51px);
+}
+.phone {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	max-width: 205px;
+}
+.contact-info-h {
+	margin-left: calc(var(--scale-f) * 62px);
+	p {
+		font-size: 24px;
+		margin: 5px 0;
+		color: $color_3;
+		font-weight: 700;
+	}
+	.p1 {
+		font-size: 18px;
+		margin: 5px 0;
+		color: $color_3;
+	}
+	.phone {
+		img {
+			&:nth-child(1) {
+				width: 30px;
+				height: 30px;
+				margin-top: calc(var(--scale-f) * 2px);
+				display: block;
+			}
+			&:nth-child(2) {
+				width: 20px;
+				height: 20px;
+				margin-left: 8px;
+			}
+		}
+	}
+}
+.number {
+	max-width: 169px;
+	color: $color_4;
+	font-size: calc(var(--scale-f) * 20px);
+	font-weight: 700;
+	font-family: $font-family_4;
+	line-height: calc(var(--scale-f) * 30px);
+	margin-top: calc(var(--scale-f) * -9px);
+	margin-left: calc(var(--scale-f) * 5px);
+}
+.email {
+	color: $color_2;
+	font-size: calc(var(--scale-f) * 20px);
+	font-weight: 700;
+	font-family: $font-family_4;
+	line-height: calc(var(--scale-f) * 26.6px);
+	margin-top: calc(var(--scale-f) * -4px);
+	margin-left: calc(var(--scale-f) * 26.6px);
+}
+.call-button {
+	padding: calc(var(--scale-f) * 9px) calc(var(--scale-f) * 39px) calc(var(--scale-f) * 15px) calc(var(--scale-f) * 40px);
+	background-color: $background-color_3;
+	color: $color_5;
+	border: none;
+	border-radius: calc(var(--scale-f) * 100px);
+	font-size: calc(var(--scale-f) * 24px);
+	font-family: $font-family_2;
+	font-weight: 900;
+	line-height: 32.16px;
+	max-width: calc(var(--scale-f) * 271px);
+	margin-top: calc(var(--scale-f) * -5px);
+	margin-left: calc(var(--scale-f) * 26px);
+}

@@ -1,0 +1,48 @@
+$color_1: #EC4524;
+$color_2: #ff6600;
+$font-family_1: 'Neris', sans-serif;
+$background-color_1: #fff;
+
+@import "./normalize.css";
+@import "./fonts.css";
+.not_found {
+	position: relative;
+	top: 100px;
+	width: 80%;
+	margin: auto;
+}
+.img {
+	display: flex;
+}
+.title {
+	display: flex;
+	width: 100%;
+	position: absolute;
+	justify-content: end;
+	top: 0px;
+}
+p {
+	display: inline-block;
+	position: relative;
+	font-family: $font-family_1;
+	font-size: 100px;
+	font-weight: 400;
+	color: $color_1;
+	margin: 0;
+}
+a {
+	font-family: $font-family_1;
+	position: relative;
+	top: 80px;
+	background-color: $background-color_1;
+	color: $color_2;
+	border: 3px solid #ff6600;
+	border-radius: 100px;
+	padding: 20px 90px 24px 91px;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 32.16px;
+	cursor: pointer;
+	margin-left: 20px;
+	text-decoration: none;
+}
