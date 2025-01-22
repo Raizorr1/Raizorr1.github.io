@@ -92,6 +92,15 @@
 }
 
 @media (max-width: 992px){
+    .map-container .form-container {
+        width: 60%;
+        height: 100%;
+        max-width: 595px;
+        max-height: 552px;
+        padding-bottom: 10px;
+        margin-bottom: 300px;
+        margin-top: 0;
+      }
 
     /* .content-wrapper {
         display: none;
@@ -273,8 +282,10 @@
     .container8 .contact-form .button-container .submit-button {
         width: 100%;
     }
-
-
+    .footer-container {
+        flex-wrap: wrap;
+        text-align: center;
+    }
 }
 
 @media (max-width: 768px){
@@ -564,14 +575,90 @@
     .container-foo div.footer-centers {
         width: 100%;
     }
-}
+    .description{
+        margin-left: 50px;
+        
+      }
+      .top-image{
+        height: 90px;
+      }
+      .map-container form button {
+        width: 90%;
+        height: 60%;
+      }
+      .map-container .cont-g{ 
+        height: 90%;
+        }      
+        .map-container .form-container h3 {
+            margin-left: 10px;
+            font-family: 'Neris', sans-serif;
+            font-size: 24px;
+          }
+          .map-container .adressform1{
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 24px;
+          }
+          .map-container .adressform2{
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 18px;
+          }
+          .map-container .form-container {
+            width: 60%;
+            height: 100%;
+            max-width: 595px;
+            max-height: 552px;
+            padding-bottom: 10px;
+            margin-bottom: 300px;
+            margin-top: 0;
+          }
+        }
 
 @media (max-width: 576px){
-    
-    .footer-left {
-        display: none;
+    .map-container form button {
+        width: 100%;
+        height: 70%;
+        font-size: 12px;
+      }
+      .map-container .cont-g{ 
+        height: 80%;
+        }      
+        .map-container .form-container h3 {
+            margin-left: 10px;
+            font-family: 'Neris', sans-serif;
+            font-size: 12px;
+          }
+          .map-container .adressform1{
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 16px;
+          }
+          .map-container .adressform2{
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+          }
+          .map-container .form-container {
+            width: 70%;
+            height: 100%;
+            max-width: 595px;
+            max-height: 552px;
+            padding-bottom: 10px;
+            margin-bottom: 300px;
+          }
+    .top-image {
+        position: absolute;
+        top: 105px;
+        left: 0;
+        z-index: 1;
+        max-width: 100%;
+        height: 80px;
     }
-
+    .bottom-image {
+        position: absolute;
+        bottom: 80px;
+        left: 0;
+        z-index: 1;
+        max-width: 100%;
+        height: 93px;
+    }
     .header-wrapper {
         background-color: #fff;
         padding: 8px 20px;
@@ -585,7 +672,19 @@
     .container .text-section .top-text {
         padding: 0 20px;
     }
-
+    
+    .form-container {
+        margin: 0;
+        max-width: 595px;
+        max-height: 552px;
+        left: 20%;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+      }
+      .description{
+        margin-left: 10px;
+        
+      }
     .container .info-box.mob {
         padding: 22px;
         width: calc(100% - 70px);
@@ -637,18 +736,7 @@
 
     .map-container .form-container h3 {
         font-size: 20px;
-        line-height: 24px;
-    }
-
-    .footer-right {
-        display: flex;
-        align-items: center;
-        margin: auto;
-        width: calc(100% - 20px);
-    }
-
-    .container-foo .footer-center {
-        padding-left: 0;
+        
     }
 
 }
